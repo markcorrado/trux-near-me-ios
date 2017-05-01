@@ -22,4 +22,10 @@ class TruxMapViewController: UIViewController, MKMapViewDelegate, CLLocationMana
 
         view = mapView
     }
+    
+    func mapView(_ mapView: MKMapView, didUpdate userLocation: MKUserLocation) {
+        //This is a method from MKMapViewDelegate, fires up when the user`s location changes
+        let zoomedInCurrentLocation = MKCoordinateRegionMakeWithDistance(userLocation.coordinate, 500, 500)
+        mapView.setRegion(zoomedInCurrentLocation, animated: true)
+    }
 }
