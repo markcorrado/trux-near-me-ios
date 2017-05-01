@@ -14,6 +14,8 @@
 		E552F63E1EB082F2006C649B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E552F63C1EB082F2006C649B /* LaunchScreen.storyboard */; };
 		E552F6491EB082F2006C649B /* TruxNearMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E552F6481EB082F2006C649B /* TruxNearMeTests.swift */; };
 		E552F6541EB082F2006C649B /* TruxNearMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E552F6531EB082F2006C649B /* TruxNearMeUITests.swift */; };
+		E552F6631EB08357006C649B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E552F6621EB08357006C649B /* MapKit.framework */; };
+		E552F6691EB7FC3A006C649B /* TruxMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E552F6681EB7FC3A006C649B /* TruxMapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		E552F64F1EB082F2006C649B /* TruxNearMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TruxNearMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E552F6531EB082F2006C649B /* TruxNearMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruxNearMeUITests.swift; sourceTree = "<group>"; };
 		E552F6551EB082F2006C649B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E552F6621EB08357006C649B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E552F6681EB7FC3A006C649B /* TruxMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TruxMapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E552F6631EB08357006C649B /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,7 @@
 				E552F6471EB082F2006C649B /* TruxNearMeTests */,
 				E552F6521EB082F2006C649B /* TruxNearMeUITests */,
 				E552F6311EB082F2006C649B /* Products */,
+				E552F6611EB08357006C649B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +109,7 @@
 				E552F63A1EB082F2006C649B /* Assets.xcassets */,
 				E552F63C1EB082F2006C649B /* LaunchScreen.storyboard */,
 				E552F63F1EB082F2006C649B /* Info.plist */,
+				E552F6681EB7FC3A006C649B /* TruxMapViewController.swift */,
 			);
 			path = TruxNearMe;
 			sourceTree = "<group>";
@@ -123,6 +130,14 @@
 				E552F6551EB082F2006C649B /* Info.plist */,
 			);
 			path = TruxNearMeUITests;
+			sourceTree = "<group>";
+		};
+		E552F6611EB08357006C649B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E552F6621EB08357006C649B /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E552F6361EB082F2006C649B /* ViewController.swift in Sources */,
+				E552F6691EB7FC3A006C649B /* TruxMapViewController.swift in Sources */,
 				E552F6341EB082F2006C649B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +521,7 @@
 				E552F65A1EB082F2006C649B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E552F65B1EB082F2006C649B /* Build configuration list for PBXNativeTarget "TruxNearMeTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +530,7 @@
 				E552F65D1EB082F2006C649B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E552F65E1EB082F2006C649B /* Build configuration list for PBXNativeTarget "TruxNearMeUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +539,7 @@
 				E552F6601EB082F2006C649B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
