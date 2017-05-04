@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		668A90479A4505B22F938595 /* Pods_TruxNearMeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 583CBD85EC55E16D7CBC0D71 /* Pods_TruxNearMeUITests.framework */; };
+		A879AE302FD01C8374632580 /* Pods_TruxNearMeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A9E0B20E55B9EF7459FF85 /* Pods_TruxNearMeTests.framework */; };
+		E2BB4F7695D2F004E8EC34D2 /* Pods_TruxNearMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED33F753E9066048B7A799A5 /* Pods_TruxNearMe.framework */; };
+		E51FD6D61EBA69B80007387D /* TruxDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51FD6D51EBA69B80007387D /* TruxDataViewController.swift */; };
 		E552F6341EB082F2006C649B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E552F6331EB082F2006C649B /* AppDelegate.swift */; };
 		E552F6361EB082F2006C649B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E552F6351EB082F2006C649B /* ViewController.swift */; };
 		E552F6391EB082F2006C649B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E552F6371EB082F2006C649B /* Main.storyboard */; };
@@ -16,6 +20,9 @@
 		E552F6541EB082F2006C649B /* TruxNearMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E552F6531EB082F2006C649B /* TruxNearMeUITests.swift */; };
 		E552F6631EB08357006C649B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E552F6621EB08357006C649B /* MapKit.framework */; };
 		E552F6691EB7FC3A006C649B /* TruxMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E552F6681EB7FC3A006C649B /* TruxMapViewController.swift */; };
+		E58CC8BC1EBA4F3B003EBC0D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E58CC8BB1EBA4F3B003EBC0D /* GoogleService-Info.plist */; };
+		E58CC8BD1EBA4F3B003EBC0D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E58CC8BB1EBA4F3B003EBC0D /* GoogleService-Info.plist */; };
+		E58CC8BE1EBA4F3B003EBC0D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E58CC8BB1EBA4F3B003EBC0D /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		198F680EEEB05955C82BBDDE /* Pods-TruxNearMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruxNearMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-TruxNearMe/Pods-TruxNearMe.release.xcconfig"; sourceTree = "<group>"; };
+		35A9E0B20E55B9EF7459FF85 /* Pods_TruxNearMeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TruxNearMeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4735D44E449A8D789E30BC34 /* Pods-TruxNearMeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruxNearMeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TruxNearMeUITests/Pods-TruxNearMeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		583CBD85EC55E16D7CBC0D71 /* Pods_TruxNearMeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TruxNearMeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		585F8B942F878F6E56F295FD /* Pods-TruxNearMeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruxNearMeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TruxNearMeTests/Pods-TruxNearMeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9EF3F55426EFE41FD12BCA0E /* Pods-TruxNearMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruxNearMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TruxNearMe/Pods-TruxNearMe.debug.xcconfig"; sourceTree = "<group>"; };
+		C1656073E8920189F96B1B5E /* Pods-TruxNearMeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruxNearMeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TruxNearMeUITests/Pods-TruxNearMeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D759F2C98CAFBE8F36454CE3 /* Pods-TruxNearMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruxNearMeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TruxNearMeTests/Pods-TruxNearMeTests.release.xcconfig"; sourceTree = "<group>"; };
+		E51FD6D51EBA69B80007387D /* TruxDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TruxDataViewController.swift; sourceTree = "<group>"; };
 		E552F6301EB082F2006C649B /* TruxNearMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TruxNearMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E552F6331EB082F2006C649B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E552F6351EB082F2006C649B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +67,8 @@
 		E552F6551EB082F2006C649B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E552F6621EB08357006C649B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		E552F6681EB7FC3A006C649B /* TruxMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TruxMapViewController.swift; sourceTree = "<group>"; };
+		E58CC8BB1EBA4F3B003EBC0D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ED33F753E9066048B7A799A5 /* Pods_TruxNearMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TruxNearMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +77,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E552F6631EB08357006C649B /* MapKit.framework in Frameworks */,
+				E2BB4F7695D2F004E8EC34D2 /* Pods_TruxNearMe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A879AE302FD01C8374632580 /* Pods_TruxNearMeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,12 +93,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				668A90479A4505B22F938595 /* Pods_TruxNearMeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C12CEB9269B913BF0D1BA017 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EF3F55426EFE41FD12BCA0E /* Pods-TruxNearMe.debug.xcconfig */,
+				198F680EEEB05955C82BBDDE /* Pods-TruxNearMe.release.xcconfig */,
+				585F8B942F878F6E56F295FD /* Pods-TruxNearMeTests.debug.xcconfig */,
+				D759F2C98CAFBE8F36454CE3 /* Pods-TruxNearMeTests.release.xcconfig */,
+				C1656073E8920189F96B1B5E /* Pods-TruxNearMeUITests.debug.xcconfig */,
+				4735D44E449A8D789E30BC34 /* Pods-TruxNearMeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E552F6271EB082F2006C649B = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +121,7 @@
 				E552F6521EB082F2006C649B /* TruxNearMeUITests */,
 				E552F6311EB082F2006C649B /* Products */,
 				E552F6611EB08357006C649B /* Frameworks */,
+				C12CEB9269B913BF0D1BA017 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +138,7 @@
 		E552F6321EB082F2006C649B /* TruxNearMe */ = {
 			isa = PBXGroup;
 			children = (
+				E58CC8BB1EBA4F3B003EBC0D /* GoogleService-Info.plist */,
 				E552F6331EB082F2006C649B /* AppDelegate.swift */,
 				E552F6351EB082F2006C649B /* ViewController.swift */,
 				E552F6371EB082F2006C649B /* Main.storyboard */,
@@ -110,6 +146,7 @@
 				E552F63C1EB082F2006C649B /* LaunchScreen.storyboard */,
 				E552F63F1EB082F2006C649B /* Info.plist */,
 				E552F6681EB7FC3A006C649B /* TruxMapViewController.swift */,
+				E51FD6D51EBA69B80007387D /* TruxDataViewController.swift */,
 			);
 			path = TruxNearMe;
 			sourceTree = "<group>";
@@ -136,6 +173,9 @@
 			isa = PBXGroup;
 			children = (
 				E552F6621EB08357006C649B /* MapKit.framework */,
+				ED33F753E9066048B7A799A5 /* Pods_TruxNearMe.framework */,
+				35A9E0B20E55B9EF7459FF85 /* Pods_TruxNearMeTests.framework */,
+				583CBD85EC55E16D7CBC0D71 /* Pods_TruxNearMeUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -147,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E552F6581EB082F2006C649B /* Build configuration list for PBXNativeTarget "TruxNearMe" */;
 			buildPhases = (
+				19614F8E8006962D059DE93E /* [CP] Check Pods Manifest.lock */,
 				E552F62C1EB082F2006C649B /* Sources */,
 				E552F62D1EB082F2006C649B /* Frameworks */,
 				E552F62E1EB082F2006C649B /* Resources */,
+				83D070AE26B81B370C6E16E5 /* [CP] Embed Pods Frameworks */,
+				4A6E9D53E707AA5559B2CF32 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E552F65B1EB082F2006C649B /* Build configuration list for PBXNativeTarget "TruxNearMeTests" */;
 			buildPhases = (
+				A2023DC813B940184DE1BBD5 /* [CP] Check Pods Manifest.lock */,
 				E552F6401EB082F2006C649B /* Sources */,
 				E552F6411EB082F2006C649B /* Frameworks */,
 				E552F6421EB082F2006C649B /* Resources */,
+				28E6EE0632AA930061FB96B9 /* [CP] Embed Pods Frameworks */,
+				7C73358F76CFEB78C2508378 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E552F65E1EB082F2006C649B /* Build configuration list for PBXNativeTarget "TruxNearMeUITests" */;
 			buildPhases = (
+				8878A72396914A9F85F9B8A8 /* [CP] Check Pods Manifest.lock */,
 				E552F64B1EB082F2006C649B /* Sources */,
 				E552F64C1EB082F2006C649B /* Frameworks */,
 				E552F64D1EB082F2006C649B /* Resources */,
+				1B4CA76F4B3A6B46133EC4EF /* [CP] Embed Pods Frameworks */,
+				6EC625D4DFD45C75D781CEFE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E552F63E1EB082F2006C649B /* LaunchScreen.storyboard in Resources */,
+				E58CC8BC1EBA4F3B003EBC0D /* GoogleService-Info.plist in Resources */,
 				E552F63B1EB082F2006C649B /* Assets.xcassets in Resources */,
 				E552F6391EB082F2006C649B /* Main.storyboard in Resources */,
 			);
@@ -257,6 +307,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E58CC8BD1EBA4F3B003EBC0D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,10 +315,149 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E58CC8BE1EBA4F3B003EBC0D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19614F8E8006962D059DE93E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1B4CA76F4B3A6B46133EC4EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TruxNearMeUITests/Pods-TruxNearMeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28E6EE0632AA930061FB96B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TruxNearMeTests/Pods-TruxNearMeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A6E9D53E707AA5559B2CF32 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TruxNearMe/Pods-TruxNearMe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EC625D4DFD45C75D781CEFE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TruxNearMeUITests/Pods-TruxNearMeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C73358F76CFEB78C2508378 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TruxNearMeTests/Pods-TruxNearMeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83D070AE26B81B370C6E16E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TruxNearMe/Pods-TruxNearMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8878A72396914A9F85F9B8A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A2023DC813B940184DE1BBD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E552F62C1EB082F2006C649B /* Sources */ = {
@@ -277,6 +467,7 @@
 				E552F6361EB082F2006C649B /* ViewController.swift in Sources */,
 				E552F6691EB7FC3A006C649B /* TruxMapViewController.swift in Sources */,
 				E552F6341EB082F2006C649B /* AppDelegate.swift in Sources */,
+				E51FD6D61EBA69B80007387D /* TruxDataViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +617,7 @@
 		};
 		E552F6591EB082F2006C649B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EF3F55426EFE41FD12BCA0E /* Pods-TruxNearMe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TruxNearMe/Info.plist;
@@ -438,6 +630,7 @@
 		};
 		E552F65A1EB082F2006C649B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 198F680EEEB05955C82BBDDE /* Pods-TruxNearMe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TruxNearMe/Info.plist;
@@ -450,6 +643,7 @@
 		};
 		E552F65C1EB082F2006C649B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 585F8B942F878F6E56F295FD /* Pods-TruxNearMeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +658,7 @@
 		};
 		E552F65D1EB082F2006C649B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D759F2C98CAFBE8F36454CE3 /* Pods-TruxNearMeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -478,6 +673,7 @@
 		};
 		E552F65F1EB082F2006C649B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1656073E8920189F96B1B5E /* Pods-TruxNearMeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = TruxNearMeUITests/Info.plist;
@@ -491,6 +687,7 @@
 		};
 		E552F6601EB082F2006C649B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4735D44E449A8D789E30BC34 /* Pods-TruxNearMeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = TruxNearMeUITests/Info.plist;
